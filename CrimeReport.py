@@ -12,7 +12,7 @@ overall has highest odds
 from csv import DictReader, reader
 
 #create variable for file name 
-filename = r"C:\Users\ohins\OneDrive\Documents\ECPI_University\Python\Crimes_-_2001_to_present.csv"
+filename = r"<Enter file path>\Crimes_-_2001_to_present.csv"
 #initialize total to 0 to total exact match of description 
 total1 = 0
 total2 = 0
