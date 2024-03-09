@@ -32,15 +32,6 @@ with open(filename, "r") as inputFile:
         #iterate over column to match the crime in the text file
         #output total and street found of most crime 
         for row in csv_dict_reader:
-            '''
-            Error in code:
-                for row in csv_dict_reader
-            How error works:
-                When I run the program, an error message pops up with a red line in my code
-                to let me know where my error is and to tell me I have invalid syntax
-            How I solved it:
-                By following the red line, I could fix my syntax error by adding a colon
-            '''
             #Since this was a short file to read from, I counted manually
             #the year the most crime was recorded 
             if(row['Description'] == "FINANCIAL IDENTITY THEFT OVER $ 300" and
